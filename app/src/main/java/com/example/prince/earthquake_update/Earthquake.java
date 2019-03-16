@@ -1,14 +1,17 @@
 package com.example.prince.earthquake_update;
 public class Earthquake {
-    private String magnitude,location,date;
+    private String location,murl;
+    private long date;
+    Double magnitude;
 
-    public Earthquake(String magnitude, String location, String date) {
+    public Earthquake(Double magnitude, String location, long date,String murl) {
         this.magnitude = magnitude;
         this.location = location;
         this.date = date;
+        this.murl=murl;
     }
 
-    public String getMagnitude() {
+    public Double getMagnitude() {
         return magnitude;
     }
 
@@ -16,7 +19,11 @@ public class Earthquake {
         return location;
     }
 
-    public String getDate() {
+    public long getDate() {
         return date;
+    }
+
+    public String getMurl() {
+        return murl;
     }
 }
