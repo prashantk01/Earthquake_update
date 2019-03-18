@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         // Create a fake list of earthquake locations.
-        ArrayList<Earthquake> earthquakes = Query_Util.extractEarthquakes();
+        ArrayList<Earthquake> earthquakes = Query_Util.earthquakes;
        /* earthquakes.add(new Earthquake("4.5","Fransico","May 5, 2018"));
         earthquakes.add(new Earthquake("3.5","Turkee","April 6, 2018"));
         earthquakes.add(new Earthquake("2.5","Fransico","May 5, 2018"));
