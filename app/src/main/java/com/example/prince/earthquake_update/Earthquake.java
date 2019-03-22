@@ -1,14 +1,15 @@
 package com.example.prince.earthquake_update;
+
 public class Earthquake {
-    private String location,murl;
+    private String location, murl;
     private long date;
     Double magnitude;
 
-    public Earthquake(Double magnitude, String location, long date,String murl) {
+    public Earthquake(Double magnitude, String location, long date, String murl) {
         this.magnitude = magnitude;
         this.location = location;
         this.date = date;
-        this.murl=murl;
+        this.murl = murl;
     }
 
     public Double getMagnitude() {
