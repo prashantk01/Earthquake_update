@@ -1,4 +1,7 @@
 # Earthquake_update
-Basic Android App that show list of earthquakes in the and data is taken from USGS Earthquake API available at: https://earthquake.usgs.gov/fdsnws/event/1/
-ListView is used With Custom Array Adapter (No Threading).
+The Quake Info app provides the updated list of earthquake occurrences happening around the globe. The list comes straight from the U.S. Geological Survey (USGS) organization.
+
+More info on the USGS Earthquake API available at: https://earthquake.usgs.gov/fdsnws/event/1/
+
+
 . 
